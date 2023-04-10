@@ -1,0 +1,2 @@
+# CourseBoost
+AI generated courses
