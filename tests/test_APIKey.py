@@ -1,4 +1,4 @@
-from APIKey import APIKey
+from src.APIKey import APIKey
 import unittest
 
 API_KEY_TEST_VALUE = 'api_key_test'

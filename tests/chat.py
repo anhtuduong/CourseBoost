@@ -1,5 +1,5 @@
 import openai
-from APIKey import APIKey
+from src.APIKey import APIKey
 
 openai.api_key = APIKey().getKeys()
 
