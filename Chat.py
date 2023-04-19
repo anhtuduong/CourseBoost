@@ -1,5 +1,5 @@
 import openai
-from src.APIKey import APIKey
+from Key import APIKey
 from src.InfoManager import InfoManager
 
 EXIT_VALUE = 'exit'
