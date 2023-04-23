@@ -1,10 +1,10 @@
 import openai
-from Key import APIKey
+from src.Key import Key
 from src.InfoManager import InfoManager
 
 EXIT_VALUE = 'exit'
 
-openai.api_key = APIKey().getKey()
+openai.api_key = Key().get_openAI_key()
 
 class Chat:
 

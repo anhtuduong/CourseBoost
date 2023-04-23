@@ -1,0 +1,185 @@
+{
+    "title": "Mastering Design Patterns: A Practical Guide for Programmers",
+    "description": "",
+    "chapters": [
+      {
+        "title": "Introduction to Design Patterns",
+        "sub-chapters": [
+          {
+            "title": "What are Design Patterns?",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Why Use Design Patterns?",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Types of Design Patterns",
+            "description": "",
+            "sub-chapters": []
+          }
+        ]
+      },
+      {
+        "title": "Creational Design Patterns",
+        "sub-chapters": [
+          {
+            "title": "Singleton Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Factory Method Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Abstract Factory Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Builder Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Prototype Pattern",
+            "description": "",
+            "sub-chapters": []
+          }
+        ]
+      },
+      {
+        "title": "Structural Design Patterns",
+        "sub-chapters": [
+          {
+            "title": "Adapter Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Bridge Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Composite Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Decorator Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Facade Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Flyweight Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Proxy Pattern",
+            "description": "",
+            "sub-chapters": []
+          }
+        ]
+      },
+      {
+        "title": "Behavioral Design Patterns",
+        "sub-chapters": [
+          {
+            "title": "Chain of Responsibility Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Command Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Interpreter Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Iterator Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Mediator Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Memento Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Observer Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "State Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Strategy Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Template Method Pattern",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Visitor Pattern",
+            "description": "",
+            "sub-chapters": []
+          }
+        ]
+      },
+      {
+        "title": "Conclusion",
+        "sub-chapters": [
+          {
+            "title": "Best Practices for Using Design Patterns",
+            "description": "",
+            "sub-chapters": []
+          },
+          {
+            "title": "Future of Design Patterns",
+            "description": "",
+            "sub-chapters": []
+          }
+        ]
+      },
+      {
+        "title": "Appendix",
+        "sub-chapters": [
+          {
+            "title": "Glossary of Terms"
+          },
+          {
+            "title": "Design Patterns in Practice"
+          },
+          {
+            "title": "References"
+          }
+        ]
+      }
+    ]
+  }
