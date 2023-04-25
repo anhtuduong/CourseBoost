@@ -1,5 +1,5 @@
-import openai
 from src.AI import AI
+from src.Prompt import Prompt
 import src.Key as Key
 from src.InfoManager import InfoManager
 import src.Logger as Logger
