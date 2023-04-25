@@ -1,2 +1,2 @@
-# CourseBoost
-AI generated courses
+# Master-GPT
+AI generated personalized courses
