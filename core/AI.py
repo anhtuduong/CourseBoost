@@ -1,5 +1,5 @@
 import openai
-import src.Logger as Logger
+import Logger as Logger
 
 class AI:
 

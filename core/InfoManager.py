@@ -1,6 +1,6 @@
 import os
 import json
-import src.Logger as Logger
+import Logger as Logger
 
 CHAT_LOG_FILE = 'mastergpt/chat_log/chats.json'
 USAGE_LOG_FILE = 'mastergpt/chat_log/usage.json'

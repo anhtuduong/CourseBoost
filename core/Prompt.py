@@ -1,5 +1,5 @@
 import tiktoken
-import src.Logger as Logger
+import Logger as Logger
 
 ENCODING_NAME = 'cl100k_base'
 

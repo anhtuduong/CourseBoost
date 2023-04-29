@@ -1,8 +1,8 @@
-from src.AI import AI
-from src.Prompt import Prompt
-import src.Key as Key
-from src.InfoManager import InfoManager
-import src.Logger as Logger
+from AI import AI
+from Prompt import Prompt
+import Key as Key
+from InfoManager import InfoManager
+import Logger as Logger
 
 EXIT_VALUE = 'exit'
 
