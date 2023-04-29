@@ -33,8 +33,8 @@ class Chat:
                 self.set_message("user", message),
             )
 
-            chat = self.chat(self.messages)
-            reply = self.get_reply(chat)
+            self.chat = self.chat(self.messages)
+            reply = self.get_reply(self.chat)
 
             print(f"\n{self.chatgpt.name}: {reply}\n")
 
@@ -43,7 +43,7 @@ class Chat:
             )
 
         Logger.debug("Chat ended")
-        InfoManager.export(self.messages, chat)
+        InfoManager.export(self.messages, self.chat)
 
     def set_name(self, name):
         self.chatgpt.set_name(name)

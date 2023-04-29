@@ -1,9 +1,12 @@
 import os
 import json
 import Logger as Logger
+import pathlib
 
-CHAT_LOG_FILE = 'mastergpt/chat_log/chats.json'
-USAGE_LOG_FILE = 'mastergpt/chat_log/usage.json'
+filepath = pathlib.Path(__file__).resolve().parent
+
+CHAT_LOG_FILE = os.path.join(filepath, 'chat_log/chats.json')
+USAGE_LOG_FILE = os.path.join(filepath, 'chat_log/usage.json')
 
 class InfoManager:
     
@@ -15,13 +18,17 @@ class InfoManager:
                 json.dump([], f, indent=4)
 
         # format data
-        data = {
-            "object": chat.object,
-            "created": chat.created,
-            "model": chat.model,
-            "usage": chat.usage,
-            "messages": messages
-        }
+        try:
+            data = {
+                "object": chat.object,
+                "created": chat.created,
+                "model": chat.model,
+                "usage": chat.usage,
+                "messages": messages
+            }
+        except Exception as e:
+            Logger.error(e)
+            return
 
         # load file and append data into it
         with open(CHAT_LOG_FILE, 'r') as f:
