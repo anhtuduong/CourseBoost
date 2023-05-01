@@ -1,6 +1,6 @@
 import os
 import json
-import MasterGPT.core.Logger as Logger
+import Logger as Logger
 import pathlib
 
 filepath = pathlib.Path(__file__).resolve().parent

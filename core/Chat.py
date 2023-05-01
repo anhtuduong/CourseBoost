@@ -1,8 +1,8 @@
-from MasterGPT.core.AI import AI
-from MasterGPT.core.Prompt import Prompt
-import MasterGPT.core.Key as Key
-from MasterGPT.core.InfoManager import InfoManager
-import MasterGPT.core.Logger as Logger
+from AI import AI
+from Prompt import Prompt
+import Key as Key
+from InfoManager import InfoManager
+import Logger as Logger
 
 EXIT_VALUE = 'exit'
 

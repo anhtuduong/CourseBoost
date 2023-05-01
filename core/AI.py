@@ -1,5 +1,5 @@
 import openai
-import MasterGPT.core.Logger as Logger
+import Logger as Logger
 
 class AI:
 
