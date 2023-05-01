@@ -1,5 +1,5 @@
 import tiktoken
-import Logger as Logger
+import MasterGPT.core.Logger as Logger
 
 ENCODING_NAME = 'cl100k_base'
 

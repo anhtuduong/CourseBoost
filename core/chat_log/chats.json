@@ -454,5 +454,29 @@
                 "content": "Lionel Messi's date of birth is June 24, 1987."
             }
         ]
+    },
+    {
+        "object": "chat.completion",
+        "created": 1682786696,
+        "model": "gpt-3.5-turbo-0301",
+        "usage": {
+            "prompt_tokens": 26,
+            "completion_tokens": 14,
+            "total_tokens": 40
+        },
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a kind helpful assistant."
+            },
+            {
+                "role": "user",
+                "content": "dob of Ho Chi minh"
+            },
+            {
+                "role": "assistant",
+                "content": "Ho Chi Minh was born on May 19, 1890."
+            }
+        ]
     }
 ]

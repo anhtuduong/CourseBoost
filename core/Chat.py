@@ -1,8 +1,8 @@
-from AI import AI
-from Prompt import Prompt
-import Key as Key
-from InfoManager import InfoManager
-import Logger as Logger
+from MasterGPT.core.AI import AI
+from MasterGPT.core.Prompt import Prompt
+import MasterGPT.core.Key as Key
+from MasterGPT.core.InfoManager import InfoManager
+import MasterGPT.core.Logger as Logger
 
 EXIT_VALUE = 'exit'
 
@@ -62,6 +62,16 @@ class Chat:
     
     def get_reply(self, chat):
         return chat.choices[0].message.content
+    
+    def get_history(self):
+        return self.messages
+    
+    def append_history(self, message):
+        self.messages.append(message)
+
+    def end(self):
+        Logger.debug("Chat ended")
+        InfoManager.export(self.messages, self.chat)
     
        
 
